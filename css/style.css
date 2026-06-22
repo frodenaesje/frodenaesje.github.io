@@ -68,9 +68,9 @@ a {
 .hero {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 72px 24px 96px;
+  padding: 110px 24px 96px;
   display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
+  grid-template-columns: minmax(0, 1.05fr) minmax(360px, 0.95fr);
   gap: 64px;
   align-items: center;
 }
@@ -154,23 +154,28 @@ h3 {
 
 .hero-visual {
   position: relative;
-  min-height: 520px;
+  min-height: 560px;
   display: grid;
   place-items: center;
+  overflow: visible;
 }
 
 .snake {
   position: absolute;
-  width: min(120%, 540px);
-  opacity: 0.13;
-  transform: rotate(-8deg) translate(-2%, -1%);
+  width: 430px;
+  max-width: 95%;
+  opacity: 0.08;
+  right: -35px;
+  top: 35px;
+  transform: rotate(-8deg);
   z-index: 0;
 }
 
 .cover {
   position: relative;
   z-index: 1;
-  width: min(82%, 360px);
+  width: min(90%, 460px);
+  max-width: 460px;
   border-radius: 10px;
   box-shadow: var(--shadow);
 }
@@ -263,7 +268,18 @@ h3 {
   }
 
   .hero-visual {
-    min-height: 420px;
+    min-height: 440px;
+  }
+
+  .snake {
+    width: 360px;
+    right: 0;
+    top: 10px;
+    opacity: 0.07;
+  }
+
+  .cover {
+    width: min(86%, 360px);
   }
 
   .cards {
