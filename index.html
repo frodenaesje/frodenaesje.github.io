@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Frode Næsje | Programming in Python</title>
+  <title>Programming in Python | Frode Næsje</title>
+  <meta name="description" content="Programming in Python is a university-level textbook for self-study and classroom teaching.">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -11,74 +12,162 @@
   <header class="site-header">
     <a class="brand" href="/">Frode Næsje</a>
 
-    <nav class="nav">
+    <nav class="site-nav" aria-label="Main navigation">
       <a href="#book">Book</a>
+      <a href="#inside">Inside</a>
       <a href="#resources">Resources</a>
-      <a href="#instructor">Instructor</a>
+      <a href="#instructors">Instructors</a>
       <a href="#about">About</a>
     </nav>
   </header>
 
   <main>
     <section class="hero">
-      <div class="hero-text">
-        <p class="eyebrow">University-level programming education</p>
-        <h1>Programming in Python</h1>
+      <div class="hero-copy">
+        <p class="eyebrow">A university-level Python textbook</p>
+        <h1>Learn Python. Understand programming.</h1>
         <p class="lead">
-          A modern textbook for learning Python, programming fundamentals,
-          data structures, algorithms, testing, and software development.
+          Programming in Python is written for self-study and classroom teaching.
+          It focuses on structured progression, clear explanations, practical
+          exercises, and the understanding needed to write, test, and reason
+          about code.
         </p>
 
-        <div class="buttons">
-          <a class="button primary" href="#book">About the book</a>
-          <a class="button secondary" href="#resources">Source code</a>
+        <div class="actions">
+          <a class="button primary" href="#book">Explore the book</a>
+          <a class="button secondary" href="downloads/sample-chapter.pdf">Preview a chapter</a>
         </div>
       </div>
 
-      <div class="hero-card">
-        <div class="book-placeholder">
-          <span>Book cover</span>
-        </div>
+      <div class="hero-visual">
+        <img class="snake" src="images/snake.png" alt="" aria-hidden="true">
+        <img class="cover" src="images/cover.png" alt="Book cover for Programming in Python">
       </div>
     </section>
 
-    <section id="book" class="section">
-      <h2>About the book</h2>
-      <p>
-        Programming in Python is written for students in computer science and
-        related programs. The book combines practical programming with deeper
-        explanations of how Python works.
-      </p>
+    <section id="book" class="section split">
+      <div>
+        <p class="section-label">Why this book?</p>
+        <h2>Built around learning, not just examples.</h2>
+      </div>
+
+      <div class="section-text">
+        <p>
+          Many Python books are organised around building applications. That can
+          be a good approach when the goal is to complete a specific project.
+          This book has a different purpose.
+        </p>
+        <p>
+          It is designed as a structured textbook for programming education,
+          where students need clear progression, opportunities to test their
+          understanding, and exercises that gradually build competence.
+        </p>
+        <p>
+          Throughout the book, we occasionally lift the hood to see what Python
+          is actually doing. These moments are meant to make the language more
+          interesting, more memorable, and easier to understand.
+        </p>
+      </div>
     </section>
 
-    <section id="resources" class="section">
-      <h2>Source code and examples</h2>
-      <p>
-        Public source code, examples, and selected student resources will be
-        available through GitHub.
-      </p>
-      <a class="text-link" href="https://github.com/frodenaesje/python_book">
-        View the public GitHub repository
+    <section class="section">
+      <p class="section-label">Designed for</p>
+      <h2>Self-study and classroom teaching.</h2>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Students and self-learners</h3>
+          <p>
+            Follow a clear path from the first programs to more advanced Python
+            concepts, with review questions and practical exercises along the way.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>University courses</h3>
+          <p>
+            Use a textbook structure with learning objectives, checkpoints,
+            exercises, and resources that support assessment and teaching.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Developers moving to Python</h3>
+          <p>
+            A dedicated perspective helps readers coming from languages such as
+            C++, Java, or C# understand what is different in Python.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="inside" class="section split">
+      <div>
+        <p class="section-label">What is inside?</p>
+        <h2>From fundamentals to practical Python.</h2>
+      </div>
+
+      <div class="feature-list">
+        <ul>
+          <li>Programming fundamentals</li>
+          <li>Variables, types, input, and expressions</li>
+          <li>Control flow and functions</li>
+          <li>Lists, tuples, sets, and dictionaries</li>
+          <li>Objects, references, classes, and methods</li>
+          <li>Files, exceptions, testing, and debugging</li>
+          <li>Regular expressions, packages, virtual environments, Git, GitHub, VS Code, and more in extensive appendices</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="resources" class="section resource-band">
+      <div>
+        <p class="section-label">Student resources</p>
+        <h2>Source code and exercises on GitHub.</h2>
+        <p>
+          The public repository contains source code examples, exercise material,
+          selected solutions, review questions, and hints for writing more
+          Pythonic code.
+        </p>
+      </div>
+
+      <a class="button primary" href="https://github.com/frodenaesje/python_book">
+        Open GitHub repository
       </a>
     </section>
 
-    <section id="instructor" class="section">
-      <h2>Instructor resources</h2>
-      <p>
-        Instructor resources are available to verified educators. These may
-        include slides, quiz banks, solutions, and course material.
-      </p>
-      <a class="text-link" href="mailto:frode.nasje@gmail.com">
-        Contact for instructor access
-      </a>
+    <section id="instructors" class="section split">
+      <div>
+        <p class="section-label">Instructor resources</p>
+        <h2>Material for verified instructors.</h2>
+      </div>
+
+      <div class="section-text">
+        <p>
+          A separate instructor package is planned for teachers using the book in
+          programming courses. It may include slides, complete exercise solutions,
+          Moodle and Canvas quiz material, and supporting course resources.
+        </p>
+        <p>
+          For access or questions, contact
+          <a href="mailto:frode.nasje@gmail.com">frode.nasje@gmail.com</a>.
+        </p>
+      </div>
     </section>
 
-    <section id="about" class="section">
-      <h2>About the author</h2>
-      <p>
-        Frode Næsje has more than 30 years of experience teaching programming
-        at university level.
-      </p>
+    <section id="about" class="section split">
+      <div>
+        <p class="section-label">Author</p>
+        <h2>Frode Næsje</h2>
+      </div>
+
+      <div class="section-text">
+        <p>
+          Frode Næsje teaches programming and computer science topics at
+          university level. This book reflects years of classroom experience and
+          a strong interest in helping students understand what their code does.
+        </p>
+      </div>
     </section>
   </main>
 
