@@ -7,7 +7,8 @@ title: Errata
 
 # Errata
 
-Corrections to *Programming in Python Fundamentals*, sorted by section. Each
+Corrections to the English VitalSource Bookshelf edition of *Programming in
+Python Fundamentals*, sorted by section. Each
 entry gives the section and print page number so you can jump straight to it in
 Bookshelf, plus a severity tag - Serious (affects your code), Moderate (a figure
 or explanation is wrong), or Minor (a typo). Spotted an error we have not listed
