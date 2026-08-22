@@ -18,5 +18,5 @@ email [frode.nasje@gmail.com](mailto:frode.nasje@gmail.com).
 |:-------:|:----:|-------|-------------|
 | 2.5.1 | 40 | Figure: `a` points to the value 20. | Figure should show the state *before* `a` is reassigned - `a` points to 10. Correct figure below.<br>[![Correct figure for section 2.5.1](images/immutable-int-before.png)](images/immutable-int-before.png) |
 | 4.4 | 98 | "...it could of course have been any current." | "...it could of course have been any currency." |
-| 4.4.3 | 105 | Wrong indentation in Bookshelf edition |Correct figure below.<br>[![Correct figure for section 4.4.3](images/correct-indentation.png)](images/correct-indentation.png)  |
+| 4.4.3 | 105 | Wrong indentation in Bookshelf edition |Correct indentation in figure below.<br>[![Correct indentation](images/correct-indentation.png)](images/correct-indentation.png)  |
 {:.errata-table}
