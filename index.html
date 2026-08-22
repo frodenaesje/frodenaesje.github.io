@@ -1,3 +1,5 @@
+---
+---
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,16 +12,7 @@
 
 <body>
   <header class="site-header">
-    <a class="brand" href="/">Frode Næsje</a>
-
-    <nav class="site-nav" aria-label="Main navigation">
-      <a href="#book">Book</a>
-      <a href="#inside">Inside</a>
-      <a href="#previews">Previews</a>
-      <a href="#resources">Resources</a>
-      <a href="#instructors">Instructors</a>
-      <a href="#about">About</a>
-    </nav>
+    {% include nav.html %}
   </header>
 
   <main>
@@ -29,7 +22,7 @@
         <h1>Write Python code. Know why it works..</h1>
         <p class="lead">
           Programming in Python is written for self-study and classroom teaching.
-A textbook for students who want to understand what their code actually does -
+A textbook for students who want to have code explained in detail and "under the hood" -
 with checkpoints and exercises that help instructors verify that students
 have learned what they should.
         </p>
@@ -65,8 +58,8 @@ have learned what they should.
         </p>
         <p>
           Throughout the book, we occasionally lift the hood to see what Python
-          is actually doing. These moments are meant to make the language more
-          interesting, more memorable, and easier to understand.
+          is actually doing, to increase understanding. Important Python idioms,
+		  like reversing a string with slicing are explained in detail.
         </p>
       </div>
     </section>
@@ -89,14 +82,14 @@ have learned what they should.
           <p>
             Use a textbook structure with learning objectives, checkpoints,
             exercises, and resources that support assessment and teaching.
+			The instructor repo contains import files to make quizzes in LMS.
           </p>
         </article>
 
         <article class="card">
           <h3>Developers moving to Python</h3>
           <p>
-            A dedicated perspective helps readers coming from languages such as
-            C++, Java, or C# understand what is different in Python.
+            Throughout the book, we frequently show how languages like C++ and Java handle the same things - so readers coming from those languages can quickly see what Python does differently
           </p>
         </article>
       </div>
@@ -117,9 +110,12 @@ have learned what they should.
           <li>Lists, tuples, sets, and dictionaries</li>
           <li>Objects, references, classes, and methods</li>
 		  <li>Inheritance, overloading, overriding</li>
+		  <li>GUI programming with Tkinter</li>
 		  <li>Advanced functions, Decorators, closures, iterators</li>
-          <li>Files, exceptions, unit testing</li>
-          <li>Regular expressions, packages, virtual environments, Git, GitHub, debugging in VS Code, Using C code and more in extensive appendices</li>
+          <li>Files, exceptions, serialization</li>
+		  <li>Unit testing</li>
+		  <li>Recursion</li>
+          <li>In Appendixes:Regular expressions, packages, virtual environments, Git, GitHub, debugging in VS Code, Using C code</li>
         </ul>
       </div>
     </section>

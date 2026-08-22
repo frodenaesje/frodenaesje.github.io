@@ -1,0 +1,22 @@
+{%- comment -%}
+Shared site header. On the home page the section links are same-page anchors
+(#book) so they scroll smoothly. On any other page they point back to the home
+page (index.html#book). The brand and Errata links are the same everywhere.
+{%- endcomment -%}
+{%- assign base = "" -%}
+{%- unless page.url == "/" or page.url contains "index" -%}
+{%- assign base = "index.html" -%}
+{%- endunless -%}
+<header class="site-header">
+  <a class="brand" href="index.html">Frode Næsje</a>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="{{ base }}#book">Book</a>
+    <a href="{{ base }}#inside">Inside</a>
+    <a href="{{ base }}#previews">Previews</a>
+    <a href="{{ base }}#resources">Resources</a>
+    <a href="{{ base }}#instructors">Instructors</a>
+    <a href="errata.html">Errata</a>
+    <a href="{{ base }}#about">About</a>
+  </nav>
+</header>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | Programming in Python</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .errata-table { border-collapse: collapse; width: 100%; margin-top: 1.5rem; }
+    .errata-table th,
+    .errata-table td {
+      text-align: left;
+      vertical-align: top;
+      padding: 0.6rem 0.8rem;
+      border-bottom: 1px solid #ddd;
+    }
+    .errata-table th { border-bottom: 2px solid #bbb; }
+    .errata-table code { font-family: Consolas, "Courier New", monospace; }
+    .errata-table img {
+      max-width: 220px;
+      height: auto;
+      display: block;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  {% include nav.html %}
+
+  <main>
+    <section class="section">
+      {{ content }}
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© Frode Næsje</p>
+  </footer>
+</body>
+</html>
