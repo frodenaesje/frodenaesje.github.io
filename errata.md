@@ -20,7 +20,9 @@ yet? Please email [frode.nasje@gmail.com](mailto:frode.nasje@gmail.com).
 |:-------:|:----:|:--------:|-------|-------------|
 | 2.1 | 33 | <span class="sev sev-low">Minor</span> | `DateTime` | `datetime` |
 | 2.5.1 | 40 | <span class="sev sev-med">Moderate</span> | Figure: `a` points to the value 20. | Figure should show the state *before* `a` is reassigned - `a` points to 10. Correct figure below.<br>[![Correct figure for section 2.5.1](images/immutable-int-before.png)](images/immutable-int-before.png) |
+| 2.5.2 | 41 | <span class="sev sev-low">Minor</span> | `comparison operator` | comparison operator (wrong font)|
 | 4.4 | 98 | <span class="sev sev-low">Minor</span> | "...it could of course have been any current." | "...it could of course have been any currency." |
 | 4.4.3 | 105 | <span class="sev sev-high">Serious</span> | Wrong indentation in the code example. | Correct indentation in figure below.<br>[![Correct indentation](images/correct-indentation.png)](images/correct-indentation.png) |
 | 4.8 | 111 | <span class="sev sev-med">Moderate</span> | `match_day` | `match day` |
+| 13 | 465 | <span class="sev sev-low">Minor</span> | tion | function |
 {:.errata-table}
