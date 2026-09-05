@@ -14,7 +14,7 @@ Bookshelf, plus a severity tag - Serious (affects your code), Moderate (a figure
 or explanation is wrong), or Minor (a typo). Spotted an error we have not listed
 yet? Please email [frode.nasje@gmail.com](mailto:frode.nasje@gmail.com).
 
-*Last updated: 22 August 2026*
+*Last updated: 4 Sep 2026*
 
 | Section | Page | Severity | Reads | Should read |
 |:-------:|:----:|:--------:|-------|-------------|
