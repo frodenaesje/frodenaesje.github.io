@@ -24,6 +24,8 @@ yet? Please email [frode.nasje@gmail.com](mailto:frode.nasje@gmail.com).
 | 4.4 | 98 | <span class="sev sev-low">Minor</span> | "...it could of course have been any current." | "...it could of course have been any currency." |
 | 4.4.3 | 105 | <span class="sev sev-high">Serious</span> | Wrong indentation in the code example. | Correct indentation in figure below.<br>[![Correct indentation](images/correct-indentation.png)](images/correct-indentation.png) |
 | 4.8 | 111 | <span class="sev sev-med">Moderate</span> | `match_day` | `match day` |
-| 5.11.2 | 139 | <span class="sev sev-low">Minor</span> | The code snippet showing ways to make shallow copy has a misleading comment (an import statement is misplaced) | Correct code below.<br>[![Correct code](images/correct-code-in-section-5-11-2.png)](images/correct-code-in-section-5-11-2.png) ||
 | 13 | 465 | <span class="sev sev-low">Minor</span> | tion | function |
+| 5.11.2 | 139 | <span class="sev sev-low">Minor</span> | The code snippet showing ways to make shallow copy has a misleading comment (an import statement is misplaced) | Correct code below.<br>[![Correct code](images/correct-code-in-section-5-11-2.png)](images/correct-code-in-section-5-11-2.png) |
+| 5.15.1 | 147 | <span class="sev sev-med">Moderate</span> | The comment for this code snippet `print(s[None:])` is not precise | Correct comment should read: <br><code>#"Helloworld" - None means "use the default<br># for this position": start defaults to 0 here</code> |
+
 {:.errata-table}
