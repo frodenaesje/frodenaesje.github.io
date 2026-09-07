@@ -26,5 +26,6 @@ yet? Please email [frode.nasje@gmail.com](mailto:frode.nasje@gmail.com).
 | 4.8 | 111 | <span class="sev sev-med">Moderate</span> | `match_day` | `match day` |
 | 13 | 465 | <span class="sev sev-low">Minor</span> | tion | function |
 | 5.11.2 | 139 | <span class="sev sev-low">Minor</span> | The code snippet showing ways to make shallow copy has a misleading comment (an import statement is misplaced) | Correct code below.<br>[![Correct code](images/correct-code-in-section-5-11-2.png)](images/correct-code-in-section-5-11-2.png) |
+| 5.15.1 | 146 | <span class="sev sev-med">Moderate</span> | Omitted values default to `start → 0, stop → len(sequence), step → 1`. | These defaults apply left-to-right. With a negative step the direction flips: start defaults to the last index, stop goes past the beginning.|
 | 5.15.1 | 147 | <span class="sev sev-med">Moderate</span> | The comment for this code snippet `print(s[None:])` is not precise | Correct comment should read: <br><code>#"Helloworld" - None means "use the default<br># for this position": start defaults to 0 here</code> |
 {:.errata-table}
