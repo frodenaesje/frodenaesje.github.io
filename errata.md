@@ -29,5 +29,6 @@ yet? Please email [frode.nasje@gmail.com](mailto:frode.nasje@gmail.com).
 | 5.15.1 | 146 | <span class="sev sev-med">Moderate</span> | Omitted values default to `start → 0, stop → len(sequence), step → 1`. | These defaults apply left-to-right. With a negative step the direction flips: start defaults to the last index, stop goes past the beginning.|
 | 5.15.1 | 147 | <span class="sev sev-med">Moderate</span> | The comment for this code snippet `print(s[None:])` is not precise | Correct comment should read: <br><code>#"Helloworld" - None means "use the default<br># for this position": start defaults to 0 here</code> |
 | 6.12.1 | 188 | <span class="sev sev-med">Moderate</span> | The numbered list gives the LEGB scopes in the wrong order, and the Local entry is imprecise. | 1. Local (L): names defined inside the current function.<br>2. Enclosing (E): names defined in enclosing functions when functions are nested.<br>3. Global (G): names defined at module level.<br>4. Built-in (B): names provided by Python, such as print, len, and type. |
+| 7.5 | 231 | <span class="sev sev-low">Minor</span> | `# Counter({'h': 3, 'i': 2, '': 1})` | `# Counter({'h': 3, 'i': 2,})` |
 | 13.3.1 | 463 | <span class="sev sev-low">Minor</span> | "after the colon is ed" | "after the colon is returned" |
 {:.errata-table}
