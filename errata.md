@@ -14,7 +14,7 @@ Bookshelf, plus a severity tag - Serious (affects your code), Moderate (a figure
 or explanation is wrong), or Minor (a typo). Spotted an error we have not listed
 yet? Please email [frode.nasje@gmail.com](mailto:frode.nasje@gmail.com).
 
-*Last updated: 14 Sep 2026*
+*Last updated: 2 Oct 2026*
 
 | Section | Page | Severity | Reads | Should read |
 |:-------:|:----:|:--------:|-------|-------------|
@@ -30,5 +30,6 @@ yet? Please email [frode.nasje@gmail.com](mailto:frode.nasje@gmail.com).
 | 5.15.1 | 147 | <span class="sev sev-med">Moderate</span> | The comment for this code snippet `print(s[None:])` is not precise | Correct comment should read: <br><code>#"Helloworld" - None means "use the default<br># for this position": start defaults to 0 here</code> |
 | 6.12.1 | 188 | <span class="sev sev-med">Moderate</span> | The numbered list gives the LEGB scopes in the wrong order, and the Local entry is imprecise. | 1. Local (L): names defined inside the current function.<br>2. Enclosing (E): names defined in enclosing functions when functions are nested.<br>3. Global (G): names defined at module level.<br>4. Built-in (B): names provided by Python, such as print, len, and type. |
 | 7.5 | 231 | <span class="sev sev-low">Minor</span> | `# Counter({'h': 3, 'i': 2, '': 1})` | `# Counter({'h': 3, 'i': 2,})` |
+| 9 | - | <span class="sev sev-med">Moderate</span> | The Chapter 9 exercises contain incomplete or outdated instructions for running the pytest tests. | Exercises 9.1-9.4 use `pytest`. Run each test file from a terminal with `python -m pytest <test_file>.py -v`. VS Code's **Run Python File** runs the file as an ordinary Python program and does not perform pytest test discovery. For exercises that test code from earlier chapters, the simple approach used in the book is to copy the completed module being tested into the Chapter 9 exercise folder before running pytest. |
 | 13.3.1 | 463 | <span class="sev sev-low">Minor</span> | "after the colon is ed" | "after the colon is returned" |
 {:.errata-table}
